@@ -9,7 +9,7 @@ export const Main = () => {
         <div className="main">
 
             <div className="mainimg">
-                <img src={homeimg2} alt="" />
+                <img id="imghome" src={homeimg2} alt="" />
             </div>
 
             <div className="bottoms">

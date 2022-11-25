@@ -17,6 +17,7 @@ code {
 .righticon {
   display:flex; 
   justify-content:flex-end;
+  margin-right:40px;
 }
 
 .square{
@@ -35,10 +36,14 @@ code {
 
 /* Main Page */
 
+#imghome{
+  max-width: 1262px;
+}
+
 .bottoms{
   display:flex;
   justify-content:space-between;
-  margin-top:-415px;
+  margin-top:-370px;
   cursor: pointer;
 }
 
@@ -60,7 +65,7 @@ code {
 }
 
 .content{
-  margin-top:250px;
+  margin-top:200px;
   margin-left: 100px;
 }
 
@@ -74,4 +79,105 @@ code {
   color:white;
   font-size:18px;
   font-weight:bold;
+}
+
+/* Posts */
+
+.posts{
+  margin-top:65px;
+  display:flex;
+  justify-content:space-between; 
+}
+
+.filter{
+  margin-right:40px;
+  margin-top:12px;
+}
+
+.filter button{
+  background-color: #F1F3F5;
+  border:1px solid white;
+  padding:10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:15px;
+}
+
+.postno p{
+  margin-left:40px;
+  font-weight:500;
+}
+
+.postimg{
+  margin-top:20px;
+}
+
+.imgpost{
+  width: 1262px;
+  height: 220px;
+}
+
+/* articles */
+
+.articelcontent{
+  display:flex;
+  justify-content:space-between;
+}
+
+.articles p{
+  margin-left:30px;
+}
+
+.leftcontent{
+  margin-top:-20px;
+}
+
+.leftcontent p{
+  margin-left:30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.icondots{
+  margin-right:30px;
+  cursor: pointer;
+}
+
+.description p{
+  margin-left:30px;
+  margin-top: -10px;
+}
+
+.name{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.photo{
+  margin-left:30px;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.username{
+  margin-left:10px;
+}
+
+.share{
+  margin-right:30px;
+}
+
+.share button{
+  background-color: #F1F3F5;
+  border:1px solid white;
+  padding:10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size:15px;
+}
+
+.username p span{
+  font-weight: 700;
 }

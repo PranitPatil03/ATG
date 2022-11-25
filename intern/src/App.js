@@ -1,5 +1,6 @@
 import React from 'react';
 import { Main } from './components/Main';
+import Post from './components/Post';
 import { Topbar } from './components/Topbar';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
     <Topbar />
     <Main/>
+    <Post/>
     </>
   );
 }
