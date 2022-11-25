@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* TopBarIcons */
+
+.righticon {
+  display:flex; 
+  justify-content:flex-end;
+}
+
+.square{
+  padding: 10px;
+}
+.circle{
+  padding: 10px;
+}
+.triangle{
+  padding: 10px;
+}
