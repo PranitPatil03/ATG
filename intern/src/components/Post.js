@@ -31,7 +31,7 @@ export default function Post() {
                 <br /> Meet RegulaBrands!</p>
             </div>
             <div className="icondots">
-                <img src={dots} alt="" />
+                <img class="dots" src={dots} alt="" />
             </div>
         </div>
 

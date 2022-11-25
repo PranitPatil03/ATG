@@ -181,3 +181,55 @@ code {
 .username p span{
   font-weight: 700;
 }
+
+
+@media (max-width:600px){
+  .righticon{
+    margin-right:8px;
+  }
+  .content{
+    margin-left:0px;
+    margin-top:250px;
+  }
+  .content h1{
+    font-size:20px;
+  }
+  .content p{
+    font-size:12px;
+  }
+
+  #imghome{
+    width:372px;
+    height:210px;
+  }
+  .imgpost{
+    width:372px;
+  }
+
+  .posts{
+    margin-top:40px;
+  }
+
+  .filter{
+    margin-right:12px;
+  }
+  
+  .leftcontent p{
+    font-size:15px;
+  }
+
+  .icondots{
+    margin-top:-8px;
+  }
+  .dots{
+    margin-top:-8px;
+    margin-left: 10px;
+  }
+
+  .description p{    
+    font-size:12px;
+  }
+  .share{
+    margin-right:12px;
+  }
+}
