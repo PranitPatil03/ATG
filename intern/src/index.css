@@ -21,10 +21,57 @@ code {
 
 .square{
   padding: 10px;
+  cursor: pointer;
 }
 .circle{
   padding: 10px;
+  cursor: pointer;
 }
 .triangle{
   padding: 10px;
+  cursor: pointer;
+}
+
+
+/* Main Page */
+
+.bottoms{
+  display:flex;
+  justify-content:space-between;
+  margin-top:-415px;
+  cursor: pointer;
+}
+
+.arrow{
+  margin-left: 50px;
+}
+
+.group{
+  margin-right: 40px;
+}
+
+.group button{
+  background-color:transparent;
+  color:white;
+  border:1px solid white;
+  padding:6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.content{
+  margin-top:250px;
+  margin-left: 100px;
+}
+
+.content h1{
+  margin-left: 50px;
+  color:white;
+}
+
+.content p{
+  margin-left: 50px;
+  color:white;
+  font-size:18px;
+  font-weight:bold;
 }
