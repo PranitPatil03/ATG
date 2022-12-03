@@ -1,12 +1,11 @@
 import React from 'react'
-import {BrowserRouter, Router, Link, Routes, Route } from 'react-router-dom';
 import Signupform from '../components/Signupform.js'
-import Post from '../components/Post.js'
-import Login from '../components/Login.js'
 import Polygon from '../components/images/Polygon.png'
 import homeimg from '../components/images/3D.png'
 import google from '../components/images/google.png'
 import facebook from '../components/images/facebook.png'
+import { Link } from 'react-router-dom';
+
 
 import "./style.css";
 
@@ -50,18 +49,16 @@ function Signup() {
 
 
           <div className="login1">
-            <p className="login2">Already have an account?</p>
-            <BrowserRouter>
-            <Routes>
-              <Route path="/" elemnet={<Post/>}/>
-              <Route path="/login" elemnet={<Login/>}/>
-            </Routes>
-            </BrowserRouter>
+            <p className="login2">Already have an account?
+              <Link to="/login">Login</Link>
+            </p>
           </div>
 
 
           <div className="forgetpassword">
-            <p className="forgetpassword1">Forget Password<a className="loginlink" href="forgetpassword">Forget Password</a></p>
+            <p className="forgetpassword1">Forget Password
+              <Link to="/forgetpassword">Forget Password</Link>
+            </p>
           </div>
 
 

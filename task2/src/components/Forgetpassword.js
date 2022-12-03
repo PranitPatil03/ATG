@@ -1,13 +1,13 @@
 import React from 'react'
-import Loginform from '../components/Loginform.js'
+import "./style.css";
 import Polygon from '../components/images/Polygon.png'
 import homeimg from '../components/images/3D.png'
 import google from '../components/images/google.png'
 import facebook from '../components/images/facebook.png'
-import "./style.css";
+import Forgetpasswordform from '../components/Forgetpasswordform.js'
 
 
-function Login() {
+function Forgetpassword() {
   return (
     <>
       <div className="main">
@@ -23,8 +23,8 @@ function Login() {
             </p>
           </div>
 
-          <div className="logincreate">
-            <h2>Log-in </h2>
+          <div className="forgetpassword0">
+            <h2>Forget Password</h2>
           </div>
 
           <div className="authications">
@@ -42,7 +42,8 @@ function Login() {
             <h2>- OR -</h2>
           </div>
 
-          <Loginform />
+
+          <Forgetpasswordform />
 
         </div>
       </div>
@@ -50,4 +51,4 @@ function Login() {
   )
 }
 
-export default Login
+export default Forgetpassword

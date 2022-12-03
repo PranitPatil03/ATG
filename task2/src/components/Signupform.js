@@ -24,7 +24,7 @@ function Signupform() {
                     </div>
 
                     <div className="submit">
-                       <input type="submit" className="btn" value="Create Account" placeholder="Create Account" />
+                        <input type="submit" className="btn" value="Create Account" placeholder="Create Account" />
                     </div>
 
                 </form>

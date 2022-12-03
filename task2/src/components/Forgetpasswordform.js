@@ -2,24 +2,23 @@ import React from 'react'
 import "./style.css";
 
 
-function Loginform() {
+function Forgetpasswordform() {
     return (
         <>
             <div className="inputform">
                 <form action="">
 
-                    <div className="email">
-                        <input type="email" className="email" placeholder="Email" />
+                    <div className="password">
+                        <input type="password" className="password" placeholder="Old Password" />
                         <hr />
                     </div>
-
                     <div className="password">
-                        <input type="password" className="password" placeholder="Password" />
+                        <input type="password" className="password" placeholder="New Password" />
                         <hr />
                     </div>
 
                     <div className="submit">
-                        <input type="submit" className="btn" value="Log In" placeholder="Create Account" />
+                        <input type="submit" className="btn" value="Submit" placeholder="Create Account" />
                     </div>
 
                 </form>
@@ -28,4 +27,4 @@ function Loginform() {
     )
 }
 
-export default Loginform
+export default Forgetpasswordform
