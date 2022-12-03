@@ -1,0 +1,205 @@
+
+.main{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    overflow: hidden;
+}
+
+.leftbox{
+    width:30%;
+    height:100vh;
+    background-color: #b0d8da;
+}
+
+.rightbox{
+    width:70%;
+    height:100vh;
+    border-radius:20px 0 0 20px;
+}
+
+
+.languge{
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+    margin-right:10px;
+}
+
+.topright{
+    color:#AFAFAF;
+}
+
+.dropdown-icon{
+    width:15px;
+    height:15px;
+    margin-bottom:-2px;
+}
+
+.homeimg{
+    position: relative;
+    top:20%;
+}
+
+.img3d{
+    width:450px;
+    height:400px;
+    position:absolute;
+    left:18%;
+}
+
+.create{
+    position: relative;
+    left:40%;
+}
+
+.authications{
+    margin-left: 15%;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 15%;
+}
+
+.google{
+    width:160px;
+    height:50%;
+    border-radius: 10px;
+    cursor: pointer;
+    border:1px solid black !important;
+}
+
+.facebook{
+    width:170px;
+    cursor: pointer;
+    border-radius: 10px;
+    border:1px solid black !important;
+}
+
+.googleicon{
+    margin-top:-22px;
+    margin-left:40px;
+    font-size:12px;
+}
+
+.facebookicon{
+    margin-top:-25px;
+    margin-left:40px;
+    font-size:12px;
+}
+
+.googleimg{
+    width:20px;
+    height:20px;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.facebookimg{
+    width:25px;
+    height:22px;
+    margin-top:10px;
+    margin-left:8px;   
+}
+
+.or{
+    font-weight: 400;
+    position: relative;
+    left:46%;    
+}
+
+.or h2{
+    font-weight: 400;
+    color:#A6A6A6;
+}
+
+.inputform{
+    display:flex;
+    align-items: center;
+    position: relative;
+    left:33%;  
+}
+
+.username{
+    border:none;
+    width:300px;
+    font-size:20px;
+    color:#A6A6A6
+}
+
+.username:focus {
+    outline: none;
+}
+
+.email{
+    border:none;
+    width:300px;
+    color:#A6A6A6;
+    font-size:20px;
+}
+
+.email:focus {
+    outline: none;
+}
+
+.password{
+    border:none;
+    width:300px;
+    color:#A6A6A6;
+    font-size:20px;
+}
+
+.password:focus {
+    outline: none;
+}
+
+.line{
+    border:1px solid black
+}
+
+.submit{
+    margin-top:30px;
+    position: relative;
+}
+
+.login1{
+    margin-top:-5px;
+    position: relative;
+    left:33%;
+}
+
+.btn{
+    background-color:#b0d8da;
+    color:white;
+    font-size:18px;
+    height:40px;
+    width:300px;
+    border:none;
+    border-radius:10px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.login2{
+    color:#A6A6A6
+}
+
+.loginlink{
+    font-size:14px;
+}
+
+
+.forgetpassword{
+    margin-top:-5px;
+    position: relative;
+    left:33%;
+}
+
+.forgetpassword1{
+    color:#A6A6A6
+}
+
+.loginlink{
+    font-size:14px;
+}
