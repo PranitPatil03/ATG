@@ -15,6 +15,7 @@
 .rightbox{
     width:70%;
     height:100vh;
+    position:relative;
     border-radius:20px 0 0 20px;
 }
 
@@ -214,4 +215,11 @@
 
 .loginlink{
     font-size:14px;
+}
+
+.sucessmsg{
+    position: absolute;
+    top:250px;
+    left:250px;    
+    color: #29bdc5;
 }

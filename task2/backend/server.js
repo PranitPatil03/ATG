@@ -19,6 +19,21 @@ app.post('/createuser',async (req,resp)=>{
     resp.send(res)
 })
 
+
+app.post("/login",async(req,res)=>{
+    if(req.body.email && req.body.password){
+        let user=await User.findOne(req.body).select("-password")
+        if(user){
+            res.send(user)
+        }else{
+            res.send({result:'No User Found'})
+        }
+    }
+    else{
+        res.send({result:"No User Found"})
+    }
+})
+
 app.listen(port, () => {
     console.log("listening on port " + port)
 })
