@@ -1,5 +1,5 @@
-import { useNavigate} from 'react-router-dom'
-import React, {useEffect,useState } from "react";
+import { useNavigate } from 'react-router-dom'
+import React, { useEffect, useState } from "react";
 import "./style.css";
 
 
@@ -9,15 +9,18 @@ function Signupform() {
     const [password, setPassword] = useState("");
 
     const navigate = useNavigate();
-    
+
     useEffect(() => {
         const auth = localStorage.getItem('user');
         if (auth) {
             navigate("/")
         }
-        
+
     }, [navigate])
 
+    async function preventDefault(e) {
+        e.preventDefault();
+    }
 
     const collectData = async () => {
         console.warn(username, email, password);
@@ -37,28 +40,28 @@ function Signupform() {
     return (
         <>
             <div className="inputform">
-                <form action="">
+                <form action={preventDefault}>
 
                     <div className="username">
-                        <input type="text" className="username" placeholder="Username" value={username} 
-                        onChange={(e) => setUsername(e.target.value)} />
+                        <input type="text" className="username" placeholder="Username" value={username}
+                            onChange={(e) => setUsername(e.target.value)} />
                         <hr />
                     </div>
 
                     <div className="email">
-                        <input type="email" className="email" placeholder="Email" value={email} 
-                        onChange={(e) => setEmail(e.target.value)}/>
+                        <input type="email" className="email" placeholder="Email" value={email}
+                            onChange={(e) => setEmail(e.target.value)} />
                         <hr />
                     </div>
 
                     <div className="password">
-                        <input type="password" className="password" placeholder="Password" value={password} 
-                        onChange={(e) => setPassword(e.target.value)}/>
+                        <input type="password" className="password" placeholder="Password" value={password}
+                            onChange={(e) => setPassword(e.target.value)} />
                         <hr />
                     </div>
 
                     <div className="submit">
-                        <input type="submit" className="btn" value="Create Account" placeholder="Create Account" onClick={collectData}  />
+                        <input type="submit" className="btn" value="Create Account" placeholder="Create Account" onClick={collectData} />
                     </div>
 
                 </form>
